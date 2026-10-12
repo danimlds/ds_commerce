@@ -14,6 +14,12 @@ public class ProductDTO {
 
     }
 
+    /*
+    * Usar alguma lib que copia atributos de mesmo nome de um obj
+    * para outro, por exemplo: ModelMapper
+    *
+    * */
+
     public ProductDTO(Product entity) {
         id = entity.getId();
         name = entity.getName();
